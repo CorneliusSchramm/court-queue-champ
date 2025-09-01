@@ -102,8 +102,8 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Courts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* Courts Grid - 2 rows of 3 courts to match physical layout */}
+        <div className="grid grid-cols-3 gap-4">
           {courts.map((courtNumber) => (
             <CourtTile
               key={courtNumber}
