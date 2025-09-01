@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				court: {
+					available: 'hsl(var(--court-available))',
+					warning: 'hsl(var(--court-warning))',
+					overtime: 'hsl(var(--court-overtime))',
+					surface: 'hsl(var(--court-surface))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
